@@ -6,7 +6,7 @@
         <title>Remover Livro</title>
     </head>
     <body>
-        <%@ include file = "../template/menubar.jsp" %>
+        <%@ include file = "../_template/menubar.jsp" %>
         <h1>Remover Livro</h1>
         <p>
             Tem certeza que deseja excluir o livro ${livro.getTitulo()} ?

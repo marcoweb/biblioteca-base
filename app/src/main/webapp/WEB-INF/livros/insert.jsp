@@ -8,7 +8,7 @@
         <link href="/css/bootstrap.min.css" rel="stylesheet" />
     </head>
     <body>
-        <%@ include file = "../template/menubar.jsp" %>
+        <%@ include file = "../_template/menubar.jsp" %>
         <div class="container">
             <h1>Novo Livro</h1>
             <form action="/livros/insert" method="post">

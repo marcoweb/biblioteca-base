@@ -8,7 +8,7 @@
         <link href="/css/bootstrap.min.css" rel="stylesheet" />
     </head>
     <body>
-        <%@ include file = "../template/menubar.jsp" %>
+        <%@ include file = "../_template/menubar.jsp" %>
         <div class="container">
             <h1>Autores</h1>
             <a href="/autores/insert" class="btn btn-primary">Novo Autor</a>

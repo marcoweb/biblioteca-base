@@ -7,7 +7,7 @@
         <link href="/css/bootstrap.min.css" rel="stylesheet" />
     </head>
     <body>
-        <%@ include file = "../template/menubar.jsp" %>
+        <%@ include file = "../_template/menubar.jsp" %>
         <div class="container">
             <h1>Novo Autor</h1>
             <form action="/autores/insert" method="post">

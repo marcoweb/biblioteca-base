@@ -7,7 +7,7 @@
         <link href="/css/bootstrap.min.css" rel="stylesheet" />
     </head>
     <body>
-        <%@ include file = "../template/menubar.jsp" %>
+        <%@ include file = "../_template/menubar.jsp" %>
         <div class="container">
             <h1>Remover Gênero</h1>
             <p>Tem certeza que deseja excluir o gênero ${genero.nome} ?</p>
