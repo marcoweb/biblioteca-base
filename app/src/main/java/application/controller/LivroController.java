@@ -19,7 +19,7 @@ import application.repository.GeneroRepository;
 import application.repository.LivroRepository;
 
 @Controller
-@RequestMapping("/livros")
+@RequestMapping(value = {"/", "/livros"})
 public class LivroController {
     @Autowired
     private LivroRepository livroRepo;
@@ -30,7 +30,7 @@ public class LivroController {
     @Autowired
     private AutorRepository autorRepo;
 
-    @RequestMapping("/list")
+    @RequestMapping(value = {"", "/list"})
     public String list(Model ui) {
         // Livro[] livros = new Livro[2];
         // livros[0] = new Livro();
